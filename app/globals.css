@@ -1,0 +1,650 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: url(./../public/img/Fond.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px;
+  }
+
+  .titre {
+    background-color: rgba(0, 0, 0, 0.337);
+    border-radius: 10px;
+    color: white;
+    width: 300px;
+    height: 100px;
+  }
+
+  .titre1 {
+    position: relative;
+    top: 30px;
+  }
+
+  .box_1 {
+    background-color: rgba(0, 0, 0, 0.337);
+    border-radius: 10px;
+    color: white;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    top: 10px;
+    right: 0px;
+  }
+
+  .degré {
+    position: relative;
+    top: px;
+    font-size: 40px;
+  }
+
+  .localisation {
+    position: relative;
+    top: 5px;
+  }
+
+  .ville {
+    position: relative;
+    top: 50px;
+  }
+
+  .degré2 {
+    position: relative;
+    bottom: 45px;
+    font-size: 25px;
+  }
+
+  .temps {
+    position: relative;
+    font-size: 20px;
+    bottom: 40px;
+  }
+
+  .box_2 {
+    background-color: rgba(0, 0, 0, 0.337);
+    border-radius: 10px;
+    color: white;
+    width: 400px;
+    height: 100px;
+    top: 30px;
+    position: relative;
+    overflow: auto;
+    white-space: nowrap;
+  }
+
+  .temps_h {
+    height: 100px;
+    width: 150px;
+    display: inline-block;
+  }
+
+  .box_3 {
+    background-color: rgba(0, 0, 0, 0.337);
+    border-radius: 10px;
+    color: white;
+    width: 400px;
+    height: 280px;
+    position: relative;
+    top: 40px;
+  }
+
+  .box_4 {
+    background-color: rgba(0, 0, 0, 0.337);
+    border-radius: 10px;
+    color: white;
+    width: 400px;
+    height: 350px;
+    position: relative;
+    top: 40px;
+  }
+
+  .eolienne {
+    position: relative;
+    bottom: 80px;
+    right: 50px;
+    height: 350px;
+  }
+
+  h3 {
+    font-size: 30px;
+    font-family: sans-serif;
+  }
+
+  pre {
+    font-family: sans-serif;
+    font-size: 13px;
+  }
+
+  hr {
+    color: black;
+  }
+
+  .Eolienne_Legende {
+    position: relative;
+    bottom: 260px;
+    left: 100px;
+    font-family: sans-serif;
+  }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body {
+    background-image: url(./../public/img/Fond.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px;
+  }
+
+  .titre {
+    background-color: rgba(0, 0, 0, 0.337);
+    border-radius: 10px;
+    color: white;
+    width: 300px;
+    height: 100px;
+  }
+
+  .titre1 {
+    position: relative;
+    top: 30px;
+  }
+
+  .box_1 {
+    background-color: rgba(0, 0, 0, 0.337);
+    border-radius: 10px;
+    color: white;
+    width: 300px;
+    height: 250px;
+    position: relative;
+    top: 10px;
+    right: 150px;
+  }
+
+  .degré {
+    position: relative;
+    top: px;
+    font-size: 30px;
+  }
+
+  .localisation {
+    position: relative;
+    top: 5px;
+  }
+
+  .ville {
+    position: relative;
+    top: 40px;
+  }
+
+  .degré2 {
+    position: relative;
+    bottom: 45px;
+    font-size: 25px;
+  }
+
+  .temps {
+    position: relative;
+    font-size: 20px;
+    bottom: 40px;
+  }
+
+  .box_2 {
+    background-color: rgba(0, 0, 0, 0.337);
+    border-radius: 10px;
+    color: white;
+    width: 280px;
+    height: 100px;
+    position: relative;
+    bottom: 240px;
+    left: 170px;
+    overflow: auto;
+    white-space: nowrap;
+  }
+
+  .temps_h {
+    height: 100px;
+    width: 150px;
+    display: inline-block;
+  }
+
+  .box_3 {
+    background-color: rgba(0, 0, 0, 0.337);
+    border-radius: 10px;
+    color: white;
+    width: 280px;
+    height: 280px;
+    position: relative;
+    bottom: 240px;
+    left: 170px;
+  }
+
+  .box_4 {
+    background-color: rgba(0, 0, 0, 0.337);
+    border-radius: 10px;
+    color: white;
+    width: 300px;
+    height: 250px;
+    position: relative;
+    bottom: 400px;
+    right: 150px;
+  }
+
+  .eolienne {
+    position: relative;
+    bottom: 80px;
+    right: 50px;
+    height: 250px;
+  }
+
+  h3 {
+    font-size: 30px;
+    font-family: sans-serif;
+  }
+
+  pre {
+    font-family: sans-serif;
+    font-size: 13px;
+  }
+
+  hr {
+    color: black;
+  }
+
+  .Eolienne_Legende {
+    position: relative;
+    bottom: 220px;
+    left: 80px;
+    font-family: sans-serif;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body {
+    background-image: url(./../public/img/Fond.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px;
+  }
+
+  .titre {
+    background-color: rgba(0, 0, 0, 0.337);
+    border-radius: 10px;
+    color: white;
+    width: 400px;
+    height: 100px;
+  }
+
+  .titre1 {
+    position: relative;
+    top: 30px;
+  }
+
+  .box_1 {
+    background-color: rgba(0, 0, 0, 0.337);
+    border-radius: 10px;
+    color: white;
+    width: 400px;
+    height: 350px;
+    position: relative;
+    top: 10px;
+    right: 250px;
+  }
+
+  .degré {
+    position: relative;
+    top: px;
+    font-size: 50px;
+  }
+
+  .localisation {
+    position: relative;
+    top: 5px;
+  }
+
+  .ville {
+    position: relative;
+    top: 80px;
+  }
+
+  .degré2 {
+    position: relative;
+    bottom: 85px;
+    font-size: 25px;
+  }
+
+  .temps {
+    position: relative;
+    font-size: 20px;
+    bottom: 80px;
+  }
+
+  .box_2 {
+    background-color: rgba(0, 0, 0, 0.337);
+    border-radius: 10px;
+    color: white;
+    width: 400px;
+    height: 120px;
+    position: relative;
+    bottom: 340px;
+    left: 240px;
+    overflow: auto;
+    white-space: nowrap;
+  }
+
+  .temps_h {
+    height: 100px;
+    width: 150px;
+    display: inline-block;
+  }
+
+  .box_3 {
+    background-color: rgba(0, 0, 0, 0.337);
+    border-radius: 10px;
+    color: white;
+    width: 400px;
+    height: 380px;
+    position: relative;
+    bottom: 340px;
+    left: 240px;
+  }
+
+  .box_4 {
+    background-color: rgba(0, 0, 0, 0.337);
+    border-radius: 10px;
+    color: white;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    bottom: 500px;
+    right: 250px;
+  }
+
+  .eolienne {
+    position: relative;
+    bottom: 80px;
+    right: 100px;
+    height: 300px;
+  }
+
+  h3 {
+    font-size: 30px;
+    font-family: sans-serif;
+  }
+
+  pre {
+    font-family: sans-serif;
+    font-size: 18px;
+  }
+
+  hr {
+    color: black;
+  }
+
+  .Eolienne_Legende {
+    position: relative;
+    bottom: 280px;
+    left: 80px;
+    font-family: sans-serif;
+  }
+
+  
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {
+    background-image: url(./../public/img/Fond.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px;
+  }
+
+  .titre {
+    background-color: rgba(0, 0, 0, 0.337);
+    border-radius: 10px;
+    color: white;
+    width: 400px;
+    height: 100px;
+  }
+
+  .titre1 {
+    position: relative;
+    top: 30px;
+  }
+
+  .box_1 {
+    background-color: rgba(0, 0, 0, 0.337);
+    border-radius: 10px;
+    color: white;
+    width: 500px;
+    height: 400px;
+    position: relative;
+    top: 10px;
+    right: 300px;
+  }
+
+  .degré {
+    position: relative;
+    top: 25px;
+    font-size: 50px;
+  }
+
+  .localisation {
+    position: relative;
+    top: 5px;
+  }
+
+  .ville {
+    position: relative;
+    top: 100px;
+  }
+
+  .degré2 {
+    position: relative;
+    bottom: 45px;
+    font-size: 25px;
+  }
+
+  .temps {
+    position: relative;
+    font-size: 20px;
+    bottom: 30px;
+  }
+
+  .box_2 {
+    background-color: rgba(0, 0, 0, 0.337);
+    border-radius: 10px;
+    color: white;
+    width: 500px;
+    height: 120px;
+    position: relative;
+    bottom: 390px;
+    left: 300px;
+    overflow: auto;
+    white-space: nowrap;
+  }
+
+  .temps_h {
+    height: 100px;
+    width: 150px;
+    display: inline-block;
+  }
+
+  .box_3 {
+    background-color: rgba(0, 0, 0, 0.337);
+    border-radius: 10px;
+    color: white;
+    width: 500px;
+    height: 410px;
+    position: relative;
+    bottom: 370px;
+    left: 300px;
+  }
+
+  .box_4 {
+    background-color: rgba(0, 0, 0, 0.337);
+    border-radius: 10px;
+    color: white;
+    width: 500px;
+    height: 400px;
+    position: relative;
+    bottom: 520px;
+    right: 300px;
+  }
+
+  .eolienne {
+    position: relative;
+    bottom: 90px;
+    right: 100px;
+    height: 400px;
+  }
+
+  h3 {
+    font-size: 30px;
+    font-family: sans-serif;
+  }
+
+  pre {
+    font-family: sans-serif;
+    font-size: 20px;
+  }
+
+  hr {
+    color: black;
+  }
+
+  .Eolienne_Legende {
+    position: relative;
+    bottom: 320px;
+    left: 80px;
+    font-family: sans-serif;
+  }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body {
+    background-image: url(./../public/img/Fond.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px;
+  }
+
+  .titre {
+    background-color: rgba(0, 0, 0, 0.337);
+    border-radius: 10px;
+    color: white;
+    width: 400px;
+    height: 100px;
+  }
+
+  .titre1 {
+    position: relative;
+    top: 30px;
+  }
+
+  .box_1 {
+    background-color: rgba(0, 0, 0, 0.337);
+    border-radius: 10px;
+    color: white;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    top: 10px;
+    right: 350px;
+  }
+
+  .degré {
+    position: relative;
+    top: 25px;
+    font-size: 50px;
+  }
+
+  .localisation {
+    position: relative;
+    top: 5px;
+  }
+
+  .ville {
+    position: relative;
+    top: 100px;
+  }
+
+  .degré2 {
+    position: relative;
+    bottom: 45px;
+    font-size: 25px;
+  }
+
+  .temps {
+    position: relative;
+    font-size: 20px;
+    bottom: 30px;
+  }
+
+  .box_2 {
+    background-color: rgba(0, 0, 0, 0.337);
+    border-radius: 10px;
+    color: white;
+    width: 600px;
+    height: 120px;
+    position: relative;
+    bottom: 390px;
+    left: 350px;
+    overflow: auto;
+    white-space: nowrap;
+  }
+
+  .temps_h {
+    height: 100px;
+    width: 150px;
+    display: inline-block;
+  }
+
+  .box_3 {
+    background-color: rgba(0, 0, 0, 0.337);
+    border-radius: 10px;
+    color: white;
+    width: 600px;
+    height: 410px;
+    position: relative;
+    bottom: 370px;
+    left: 350px;
+  }
+
+  .box_4 {
+    background-color: rgba(0, 0, 0, 0.337);
+    border-radius: 10px;
+    color: white;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    bottom: 520px;
+    right: 350px;
+  }
+
+  .eolienne {
+    position: relative;
+    bottom: 90px;
+    right: 100px;
+    height: 400px;
+  }
+
+  h3 {
+    font-size: 30px;
+    font-family: sans-serif;
+  }
+
+  pre {
+    font-family: sans-serif;
+    font-size: 20px;
+  }
+
+  hr {
+    color: black;
+  }
+
+  .Eolienne_Legende {
+    position: relative;
+    bottom: 320px;
+    left: 80px;
+    font-family: sans-serif;
+  }
+}
