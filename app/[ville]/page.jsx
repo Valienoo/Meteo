@@ -1,4 +1,17 @@
+'use client'
+import Link from "next/link";
+import { Suspense } from "react";
+import Loading from "./loading";
+
+
 function Box_1() {
+  const Pageville = ({params}) => {
+    return <Suspense fallback={<Loading/>}>
+        <h1>{params.ville}</h1>
+    </Suspense>
+    
+  }
+  
   return (
     <>
       <center>
@@ -9,7 +22,7 @@ function Box_1() {
         </div>
         <div class="box_1">
           <div class="ville">
-            Villejuif
+          <h1>{params.ville}</h1>
             <img class="localisation" src="img/localisation.png" alt="Localisation" />
           </div>
           <div className="degré">

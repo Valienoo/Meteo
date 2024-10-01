@@ -124,6 +124,55 @@
     font-family: sans-serif;
   }
 
+  .box_5 {
+    background-color: rgba(0, 0, 0, 0.337);
+    border-radius: 10px;
+    color: white;
+    width: 280px  ;
+    height: 150px;
+    position: relative;
+    top: 80px;
+  }
+  
+  .UV{
+    position: relative;
+    top: 10px;
+    right: 80px;
+  }
+  
+  .UV_1{
+    position: relative;
+    font-size: 20px;
+  
+  }
+  
+  .form-range{
+    bottom: 10px;
+    position: relative;
+  }
+  
+  .visibilité {
+    background-color: rgba(0, 0, 0, 0.337);
+    border-radius: 10px;
+    color: white;
+    width: 280px;
+    height: 130px;
+    position: relative;
+    top: 100px;
+  }
+  
+  .deg{
+  
+    position: relative;
+    top: 10px;
+  }
+  
+  .visi{
+    position: relative;
+    top: 10px;
+    right: 80px;
+  }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -253,6 +302,59 @@
     bottom: 220px;
     left: 80px;
     font-family: sans-serif;
+  }
+
+  .box_5 {
+    background-color: rgba(0, 0, 0, 0.337);
+    border-radius: 10px;
+    color: white;
+    width: 120px  ;
+    height: 100px;
+    position: relative;
+    bottom: 500px;
+    left: 250px;
+  }
+  
+  .UV{
+    position: relative;
+    top: 10px;
+    right: 20px;
+  }
+  
+  .UV_1{
+    position: relative;
+    font-size: 10px;
+  
+  }
+  
+  .form-range{
+    bottom: 10px;
+    right: 5px;
+    position: relative;
+  }
+  
+  .visibilité {
+    background-color: rgba(0, 0, 0, 0.337);
+    border-radius: 10px;
+    color: white;
+    width: 120px;
+    height: 100px;
+    position: relative;
+    bottom: 600px;
+    left: 90px;
+  }
+  
+  .deg{
+  
+    position: relative;
+    top: 20px;
+    font-size: 7px
+  }
+  
+  .visi{
+    position: relative;
+    top: 10px;
+    right: 20px;
   }
 }
 
@@ -647,4 +749,58 @@
     left: 80px;
     font-family: sans-serif;
   }
+
+
+.box_5 {
+  background-color: rgba(0, 0, 0, 0.337);
+  border-radius: 10px;
+  color: white;
+  width: 280px  ;
+  height: 150px;
+  position: relative;
+  bottom: 750px;
+  left: 500px;
+}
+
+.UV{
+  position: relative;
+  top: 10px;
+  right: 80px;
+}
+
+.UV_1{
+  position: relative;
+  font-size: 20px;
+
+}
+
+.form-range{
+  bottom: 10px;
+  position: relative;
+}
+
+.visibilité {
+  background-color: rgba(0, 0, 0, 0.337);
+  border-radius: 10px;
+  color: white;
+  width: 280px;
+  height: 150px;
+  position: relative;
+  bottom: 900px;
+  left: 200px;
+}
+
+.deg{
+
+  position: relative;
+  top: 10px;
+  font-size: 20px;
+}
+
+.visi{
+  position: relative;
+  top: 10px;
+  right: 80px;
+}
+
 }
