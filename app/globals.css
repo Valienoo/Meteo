@@ -9,7 +9,7 @@
   .titre {
     background-color: rgba(0, 0, 0, 0.337);
     border-radius: 10px;
-    color: white;
+    color: rgb(255, 0, 0);
     width: 300px;
     height: 100px;
   }
@@ -68,6 +68,7 @@
     position: relative;
     overflow: auto;
     white-space: nowrap;
+    overflow-y: hidden;
   }
 
   .temps_h {
@@ -128,29 +129,28 @@
     background-color: rgba(0, 0, 0, 0.337);
     border-radius: 10px;
     color: white;
-    width: 280px  ;
+    width: 280px;
     height: 150px;
     position: relative;
     top: 80px;
   }
-  
-  .UV{
+
+  .UV {
     position: relative;
     top: 10px;
     right: 80px;
   }
-  
-  .UV_1{
+
+  .UV_1 {
     position: relative;
     font-size: 20px;
-  
   }
-  
-  .form-range{
+
+  .form-range {
     bottom: 10px;
     position: relative;
   }
-  
+
   .visibilité {
     background-color: rgba(0, 0, 0, 0.337);
     border-radius: 10px;
@@ -160,19 +160,169 @@
     position: relative;
     top: 100px;
   }
-  
-  .deg{
-  
+
+  .deg {
     position: relative;
     top: 10px;
   }
-  
-  .visi{
+
+  .visi {
     position: relative;
     top: 10px;
     right: 80px;
   }
 
+  /* Accueil style */
+
+  .recherche1 {
+    position: relative;
+    top: 100px;
+    right: 300px;
+    width: 300px;
+    height: 400px;
+    background-color: rgba(168, 168, 168, 0.701);
+    font-size: 30px;
+    border-radius: 5px;
+  }
+
+  .recherche2 {
+    position: relative;
+    bottom: 300px;
+    left: 300px;
+    width: 300px;
+    height: 400px;
+    background-color: rgba(168, 168, 168, 0.7);
+    font-size: 30px;
+    border-radius: 5px;
+  }
+
+  .TitreRecherche {
+    position: relative;
+    top: 10px;
+    font-size: 100px;
+    color: white;
+    text-shadow: 2px 2px black;
+  }
+
+  .Zone1 {
+    background-color: rgba(0, 0, 0, 0.337);
+    position: relative;
+    height: 230px;
+    width: 440px;
+    left: 10px;
+    top: 0px;
+    border-radius: 10px;
+  }
+
+  .ville1 {
+    position: absolute;
+    right: 180px;
+  }
+
+  .ville2 {
+    position: absolute;
+    top: 35px;
+    left: 280px;
+    width: 50px;
+  }
+
+  .ville3 {
+    position: absolute;
+    right: 180px;
+  }
+
+  .ville4 {
+    position: absolute;
+    top: 35px;
+    left: 280px;
+  }
+
+  .Zone2 {
+    background-color: rgba(0, 0, 0, 0.337);
+    position: relative;
+    height: 230px;
+    width: 440px;
+    left: 10px;
+    top: 20px;
+    border-radius: 10px;
+  }
+
+  .TitreZone {
+    color: white;
+    font-size: 30px;
+  }
+
+  .BoutonVille {
+    color: white;
+    position: relative;
+    background-color: black;
+    width: 200px;
+    right: 50px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.337);
+  }
+
+  .VilleAcceuil {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+  }
+
+  .emojiVille {
+    position: absolute;
+    left: 150px;
+    font-size: 2em;
+    text-decoration: none;
+  }
+
+  .form-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  button {
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.337);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .BoutonRecherche {
+    position: relative;
+    top: 10px;
+    left: 20px;
+  }
+
+  body {
+    font-family: sans-serif;
+  }
+
+  .emoji-link {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -246,6 +396,7 @@
     left: 170px;
     overflow: auto;
     white-space: nowrap;
+    overflow-y: hidden;
   }
 
   .temps_h {
@@ -308,31 +459,30 @@
     background-color: rgba(0, 0, 0, 0.337);
     border-radius: 10px;
     color: white;
-    width: 120px  ;
+    width: 120px;
     height: 100px;
     position: relative;
     bottom: 500px;
     left: 250px;
   }
-  
-  .UV{
+
+  .UV {
     position: relative;
     top: 10px;
     right: 20px;
   }
-  
-  .UV_1{
+
+  .UV_1 {
     position: relative;
     font-size: 10px;
-  
   }
-  
-  .form-range{
+
+  .form-range {
     bottom: 10px;
     right: 5px;
     position: relative;
   }
-  
+
   .visibilité {
     background-color: rgba(0, 0, 0, 0.337);
     border-radius: 10px;
@@ -343,18 +493,168 @@
     bottom: 600px;
     left: 90px;
   }
-  
-  .deg{
-  
+
+  .deg {
     position: relative;
     top: 20px;
-    font-size: 7px
+    font-size: 7px;
   }
-  
-  .visi{
+
+  .visi {
     position: relative;
     top: 10px;
     right: 20px;
+  }
+  /* Accueil style */
+
+  .recherche1 {
+    position: relative;
+    top: 100px;
+    right: 300px;
+    width: 300px;
+    height: 400px;
+    background-color: rgba(168, 168, 168, 0.701);
+    font-size: 30px;
+    border-radius: 5px;
+  }
+
+  .recherche2 {
+    position: relative;
+    bottom: 300px;
+    left: 300px;
+    width: 300px;
+    height: 400px;
+    background-color: rgba(168, 168, 168, 0.7);
+    font-size: 30px;
+    border-radius: 5px;
+  }
+
+  .TitreRecherche {
+    position: relative;
+    top: 10px;
+    font-size: 100px;
+    color: white;
+    text-shadow: 2px 2px black;
+  }
+
+  .Zone1 {
+    background-color: rgba(0, 0, 0, 0.337);
+    position: relative;
+    height: 230px;
+    width: 440px;
+    left: 10px;
+    top: 0px;
+    border-radius: 10px;
+  }
+
+  .ville1 {
+    position: absolute;
+    right: 180px;
+  }
+
+  .ville2 {
+    position: absolute;
+    top: 35px;
+    left: 280px;
+    width: 50px;
+  }
+
+  .ville3 {
+    position: absolute;
+    right: 180px;
+  }
+
+  .ville4 {
+    position: absolute;
+    top: 35px;
+    left: 280px;
+  }
+
+  .Zone2 {
+    background-color: rgba(0, 0, 0, 0.337);
+    position: relative;
+    height: 230px;
+    width: 440px;
+    left: 10px;
+    top: 20px;
+    border-radius: 10px;
+  }
+
+  .TitreZone {
+    color: white;
+    font-size: 30px;
+  }
+
+  .BoutonVille {
+    color: white;
+    position: relative;
+    background-color: black;
+    width: 200px;
+    right: 50px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.337);
+  }
+
+  .VilleAcceuil {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+  }
+
+  .emojiVille {
+    position: absolute;
+    left: 150px;
+    font-size: 2em;
+    text-decoration: none;
+  }
+
+  .form-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  button {
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.337);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .BoutonRecherche {
+    position: relative;
+    top: 10px;
+    left: 20px;
+  }
+
+  body {
+    font-family: sans-serif;
+  }
+
+  .emoji-link {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
   }
 }
 
@@ -369,7 +669,7 @@
   .titre {
     background-color: rgba(0, 0, 0, 0.337);
     border-radius: 10px;
-    color: white;
+    color: rgb(255, 255, 255);
     width: 400px;
     height: 100px;
   }
@@ -487,7 +787,157 @@
     font-family: sans-serif;
   }
 
-  
+  /* Accueil style */
+
+  .recherche1 {
+    position: relative;
+    top: 100px;
+    right: 300px;
+    width: 300px;
+    height: 400px;
+    background-color: rgba(168, 168, 168, 0.701);
+    font-size: 30px;
+    border-radius: 5px;
+  }
+
+  .recherche2 {
+    position: relative;
+    bottom: 300px;
+    left: 300px;
+    width: 300px;
+    height: 400px;
+    background-color: rgba(168, 168, 168, 0.7);
+    font-size: 30px;
+    border-radius: 5px;
+  }
+
+  .TitreRecherche {
+    position: relative;
+    top: 10px;
+    font-size: 100px;
+    color: white;
+    text-shadow: 2px 2px black;
+  }
+
+  .Zone1 {
+    background-color: rgba(0, 0, 0, 0.337);
+    position: relative;
+    height: 230px;
+    width: 750px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+  }
+
+  .ville1 {
+    position: absolute;
+    right: 450px;
+  }
+
+  .ville2 {
+    position: absolute;
+    top: 35px;
+    left: 350px;
+  }
+
+  .ville3 {
+    position: absolute;
+    right: 450px;
+  }
+
+  .ville4 {
+    position: absolute;
+    top: 35px;
+    left: 350px;
+  }
+
+  .Zone2 {
+    background-color: rgba(0, 0, 0, 0.337);
+    position: relative;
+    height: 230px;
+    width: 750px;
+    left: 0px;
+    top: 20px;
+    border-radius: 10px;
+  }
+
+  .TitreZone {
+    color: white;
+    font-size: 30px;
+  }
+
+  .BoutonVille {
+    color: white;
+    position: relative;
+    background-color: black;
+    width: 300px;
+    left: 50px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.337);
+  }
+
+  .VilleAcceuil {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+  }
+
+  .emojiVille {
+    position: absolute;
+    left: 250px;
+    font-size: 2em;
+    text-decoration: none;
+  }
+
+  .form-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  button {
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.337);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .BoutonRecherche {
+    position: relative;
+    top: 10px;
+    left: 0px;
+    right: 200px;
+  }
+
+  body {
+    font-family: sans-serif;
+  }
+
+  .emoji-link {
+    text-decoration: none; /* Enlève le soulignement du lien */
+    color: inherit; /* Garde la couleur du texte par défaut */
+    cursor: pointer; /* Change le curseur pour montrer que c'est cliquable */
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -501,7 +951,7 @@
   .titre {
     background-color: rgba(0, 0, 0, 0.337);
     border-radius: 10px;
-    color: white;
+    color: rgb(255, 255, 255);
     width: 400px;
     height: 100px;
   }
@@ -618,7 +1068,146 @@
     left: 80px;
     font-family: sans-serif;
   }
+  /*Acceuil*/
 
+  .recherche2 {
+    position: relative;
+    bottom: 300px;
+    left: 300px;
+    width: 300px;
+    height: 400px;
+    background-color: rgba(168, 168, 168, 0.7);
+    font-size: 30px;
+    border-radius: 5px;
+  }
+
+  .TitreRecherche {
+    position: relative;
+    top: 10px;
+    font-size: 100px;
+    color: white;
+    text-shadow: 2px 2px black;
+  }
+
+  .Zone1 {
+    background-color: rgba(0, 0, 0, 0.337);
+    position: relative;
+    height: 230px;
+    width: 750px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+  }
+
+  .ville1 {
+    position: absolute;
+    right: 450px;
+  }
+
+  .ville2 {
+    position: absolute;
+    top: 35px;
+    left: 350px;
+  }
+
+  .ville3 {
+    position: absolute;
+    right: 450px;
+  }
+
+  .ville4 {
+    position: absolute;
+    top: 35px;
+    left: 350px;
+  }
+
+  .Zone2 {
+    background-color: rgba(0, 0, 0, 0.337);
+    position: relative;
+    height: 230px;
+    width: 750px;
+    left: 0px;
+    top: 20px;
+    border-radius: 10px;
+  }
+
+  .TitreZone {
+    color: white;
+    font-size: 30px;
+  }
+
+  .BoutonVille {
+    color: white;
+    position: relative;
+    background-color: black;
+    width: 300px;
+    left: 50px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.337);
+  }
+
+  .VilleAcceuil {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+  }
+
+  .emojiVille {
+    position: absolute;
+    left: 250px;
+    font-size: 2em;
+    text-decoration: none;
+  }
+
+  .form-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  button {
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.337);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .BoutonRecherche {
+    position: relative;
+    top: 10px;
+    left: 0px;
+    right: 200px;
+  }
+
+  body {
+    font-family: sans-serif;
+  }
+
+  .emoji-link {
+    text-decoration: none; /* Enlève le soulignement du lien */
+    color: inherit; /* Garde la couleur du texte par défaut */
+    cursor: pointer; /* Change le curseur pour montrer que c'est cliquable */
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -717,9 +1306,9 @@
     color: white;
     width: 600px;
     height: 400px;
-    position: relative;
-    bottom: 520px;
-    right: 350px;
+    position: absolute;
+    top: 600px;
+    right: 790px;
   }
 
   .eolienne {
@@ -750,57 +1339,205 @@
     font-family: sans-serif;
   }
 
+  .box_5 {
+    background-color: rgba(0, 0, 0, 0.337);
+    border-radius: 10px;
+    color: white;
+    width: 280px;
+    height: 150px;
+    position: absolute;
+    top: 750px;
+    left: 1110px;
+  }
 
-.box_5 {
-  background-color: rgba(0, 0, 0, 0.337);
-  border-radius: 10px;
-  color: white;
-  width: 280px  ;
-  height: 150px;
-  position: relative;
-  bottom: 750px;
-  left: 500px;
-}
+  .UV {
+    position: relative;
+    top: 10px;
+    right: 80px;
+  }
 
-.UV{
-  position: relative;
-  top: 10px;
-  right: 80px;
-}
+  .UV_1 {
+    position: relative;
+    font-size: 20px;
+  }
 
-.UV_1{
-  position: relative;
-  font-size: 20px;
+  .form-range {
+    bottom: 10px;
+    position: relative;
+  }
 
-}
+  .visibilité {
+    background-color: rgba(0, 0, 0, 0.337);
+    border-radius: 10px;
+    color: white;
+    width: 280px;
+    height: 150px;
+    position: absolute;
+    top: 750px;
+    left: 790px;
+  }
 
-.form-range{
-  bottom: 10px;
-  position: relative;
-}
+  .deg {
+    position: relative;
+    top: 10px;
+    font-size: 15px;
+  }
 
-.visibilité {
-  background-color: rgba(0, 0, 0, 0.337);
-  border-radius: 10px;
-  color: white;
-  width: 280px;
-  height: 150px;
-  position: relative;
-  bottom: 900px;
-  left: 200px;
-}
+  .visi {
+    position: relative;
+    top: 10px;
+    right: 80px;
+  }
 
-.deg{
+  .recherche1 {
+    position: relative;
+    top: 100px;
+    right: 300px;
+    width: 300px;
+    height: 400px;
+    background-color: rgba(168, 168, 168, 0.701);
+    font-size: 30px;
+    border-radius: 5px;
+  }
 
-  position: relative;
-  top: 10px;
-  font-size: 20px;
-}
+  /*Acceuil*/
 
-.visi{
-  position: relative;
-  top: 10px;
-  right: 80px;
-}
+  .recherche2 {
+    position: relative;
+    bottom: 300px;
+    left: 300px;
+    width: 300px;
+    height: 400px;
+    background-color: rgba(168, 168, 168, 0.7);
+    font-size: 30px;
+    border-radius: 5px;
+  }
 
+  .TitreRecherche {
+    position: relative;
+    top: 10px;
+    font-size: 100px;
+    color: white;
+    text-shadow: 2px 2px black;
+  }
+
+  .Zone1 {
+    background-color: rgba(0, 0, 0, 0.337);
+    position: relative;
+    height: 230px;
+    width: 750px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+  }
+
+  .ville1 {
+    position: absolute;
+    right: 450px;
+  }
+
+  .ville2 {
+    position: absolute;
+    top: 35px;
+    left: 350px;
+  }
+
+  .ville3 {
+    position: absolute;
+    right: 450px;
+  }
+
+  .ville4 {
+    position: absolute;
+    top: 35px;
+    left: 350px;
+  }
+
+  .Zone2 {
+    background-color: rgba(0, 0, 0, 0.337);
+    position: relative;
+    height: 230px;
+    width: 750px;
+    left: 0px;
+    top: 20px;
+    border-radius: 10px;
+  }
+
+  .TitreZone {
+    color: white;
+    font-size: 30px;
+  }
+
+  .BoutonVille {
+    color: white;
+    position: relative;
+    background-color: black;
+    width: 300px;
+    left: 50px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.337);
+  }
+
+  .VilleAcceuil {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+  }
+
+  .emojiVille {
+    position: absolute;
+    left: 250px;
+    font-size: 2em;
+    text-decoration: none;
+  }
+
+  .form-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  button {
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.337);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .BoutonRecherche {
+    position: relative;
+    top: 10px;
+    left: 0px;
+    right: 200px;
+  }
+
+  body {
+    font-family: sans-serif;
+  }
+
+  .emoji-link {
+    text-decoration: none; /* Enlève le soulignement du lien */
+    color: inherit; /* Garde la couleur du texte par défaut */
+    cursor: pointer; /* Change le curseur pour montrer que c'est cliquable */
+  }
 }
